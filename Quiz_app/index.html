@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Quiz Uygulaması</title>
+  </head>
+
+  <body>
+    <div class="start" id="start-container">
+      <h1 style="font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">Quiz Uygulaması</h1>
+      <button class="startbutton" id="start-button">Başlat</button>
+    </div>
+
+    <div id="question-container" style="display: none">
+      <h2 id="question-counter"></h2>
+      <h2
+        id="question-title"
+        style="border: 1px solid; padding: 15px; border-radius: 10px; font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;;"
+      ></h2>
+      <ul id="choices-list"></ul>
+      <button id="submit-button" disabled>Cevabı Gönder</button>
+      <div class="time-container" id="timer-container">
+        <span class="time" id="timer"></span>
+      </div>
+    </div>
+
+    <div id="result-container" style="display: none">
+      <h2>Test Sonuçları</h2>
+      <table>
+        <thead>
+          <tr>
+            <th >Soru</th>
+            <th>Kullanıcının Yanıtı</th>
+            <th>Doğru Cevap</th>
+          </tr>
+        </thead>
+        <tbody id="result-table-body"></tbody>
+      </table>
+    </div>
+
+    <script src="quiz.js"></script>
+  </body>
+</html>

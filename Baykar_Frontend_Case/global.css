@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    line-height: normal;
+  }
+  
+  :root {
+    /* fonts */
+    --body-m: Roboto;
+    --font-open-sans: "Open Sans";
+  
+    /* font sizes */
+    --body-m-size: 16px;
+    --heading-2-size: 56px;
+    --heading-1-l-size: 96px;
+    --button-l-size: 20px;
+    --body-l-size: 18px;
+    --body-xxl-size: 24px;
+    --heading-1-m-size: 72px;
+    --heading-5-size: 32px;
+  
+    /* Colors */
+    --blue-gray-900: #0f172a;
+    --overlay-dark-75: rgba(18, 22, 25, 0.75);
+    --blue-gray-200: #e2e8f0;
+    --blue-gray-600: #475569;
+    --blue-gray-700: #334155;
+    --color-white: #fff;
+    --amber-900: #78350f;
+    --lime-200: #d9f99d;
+    --amber-200: #fde68a;
+    --lime-400: #a3e635;
+    --amber-50: #fffbeb;
+    --color-black: #000;
+    --green-700: #15803d;
+    --pink-700: #be185d;
+    --blue-light-700: #0369a1;
+    --amber-700: #b45309;
+    --fuchsia-700: #a21caf;
+    --amber-400: #fbbf24;
+  
+    /* Gaps */
+    --gap-29xl: 48px;
+    --gap-13xl: 32px;
+    --gap-5xs: 8px;
+    --gap-base: 16px;
+    --gap-61xl: 80px;
+    --gap-3xs: 10px;
+    --gap-8xs: 5px;
+    --gap-5xl: 24px;
+  
+    /* Paddings */
+    --padding-61xl: 80px;
+    --padding-5xl: 24px;
+    --padding-xs: 12px;
+    --padding-29xl: 48px;
+    --padding-base: 16px;
+    --padding-5xs: 8px;
+    --padding-13xl: 32px;
+    --padding-xl: 20px;
+  
+    /* border radiuses */
+    --br-3xs: 10px;
+    --br-xl: 20px;
+    --br-5xs: 8px;
+    --br-81xl: 100px;
+    --br-11xl: 30px;
+    --br-31xl: 50px;
+  
+    /* Effects */
+    --shadow-dark-xxl: 0px 25px 50px -12px rgba(0, 0, 0, 0.25),
+      0px 0px 15px rgba(0, 0, 0, 0.07);
+    --shadow-dark-m: 0px 4px 6px -1px rgba(0, 0, 0, 0.1),
+      0px 0px 4px rgba(0, 0, 0, 0.07);
+    --shadow-dark-l: 0px 10px 15px -3px rgba(0, 0, 0, 0.1),
+      0px 0px 6px rgba(0, 0, 0, 0.07);
+    --shadow-dark-s: 0px 1px 3px rgba(0, 0, 0, 0.1),
+      0px 0px 2px rgba(0, 0, 0, 0.07);
+    --shadow-light-xxl: 0px 25px 50px -12px rgba(255, 255, 255, 0.25),
+      0px 0px 15px rgba(255, 255, 255, 0.07);
+  }
+  
